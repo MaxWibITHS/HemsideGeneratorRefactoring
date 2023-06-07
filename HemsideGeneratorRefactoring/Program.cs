@@ -1,15 +1,11 @@
 ﻿using HemsideGeneratorRefactoring;
 using System.Runtime.InteropServices;
 
-Course databaser = new Course();
-Course webbutveckling = new Course();
-Course cleancode = new Course();
-Course csharp = new Course();   
+Course databaser = new Course("daTAbaser");
+Course webbutveckling = new Course("WebbuTVeCkling ");
+Course cleancode = new Course("clean Code   ");
+Course csharp = new Course("   C#");   
 
-databaser.CourseName = "daTAbaser";
-webbutveckling.CourseName = "WebbuTVeCkling ";
-cleancode.CourseName = "clean Code   ";
-csharp.CourseName = "   C#";
 
 SchoolClass classA = new SchoolClass();
 classA.ListOfCourses = new List<Course>

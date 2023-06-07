@@ -8,6 +8,11 @@ namespace HemsideGeneratorRefactoring
 {
     public class Course
     {
+        public Course(string? courseName)
+        {
+            CourseName = courseName;
+        }
+    
         internal string? CourseName { get; set; }
 
     }
