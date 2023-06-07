@@ -1,8 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System.Collections.Generic;
+
+// See https://aka.ms/new-console-template for more information
 
 /*
  * Data ifrån API
  */
+
+
+
 string[] techniques = {"   C#", "daTAbaser", "WebbuTVeCkling ", "clean Code   "};
 string[] messagesToClass = { "Glöm inte att övning ger färdighet!", "Öppna boken på sida 257." };
 
@@ -62,3 +67,4 @@ string courseGenerator(string[] techniques)
 
     return kurser;
 }
+
