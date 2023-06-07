@@ -27,26 +27,8 @@ classA.ClassMessage = new [] { "Glöm inte att övning ger färdighet!", "Öppna
 
 HomePageBuilder builder = new HomePageBuilder(classA);
 
-//builder.PrintPage();
+builder.PrintPage();
 
 
-SchoolClass classB = new SchoolClass();
 
-classB.ListOfCourses = new List<Course>
-{
-    csharp,
-    databaser,
-    webbutveckling,
-    
-};
-
-classB.ClassName = "Klass B";
-
-classB.ClassMessage = new[] { "Meddelande till klass B", "Öppna boken på sida 1337" };
-
-
-HomePageBuilder builder2 = new HomePageBuilder(classB);
-
-
-builder2.PrintPage();
 
